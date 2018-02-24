@@ -220,8 +220,6 @@ textarea{
         width: 90%;
         padding: 0px;
     }
-    .image{
-    }
     aside{
         width: 40%;
         float: right;
@@ -281,76 +279,6 @@ textarea{
     form{
         padding: 0px 0px 10px 10px;
     }
-    }
-    .messageBox{
-        width: 80%;
-    }
-
-    .imgWidth{
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px){
-    .headerContainer{
-        width: 100%;
-    }
-    .contentContainer{
-        width: 90%;
-        padding: 0px;
-        margin: 20px auto;
-    }
-    .borderRight{
-        border: none;
-    }
-    nav a{
-        padding: 10px 25px 25px 25px;
-        margin: 0px;
-        
-    }
-    aside{
-        float: none;
-        clear: both;
-        overflow: hidden;
-        width: 90%;
-        margin: 10px auto;
-        padding: 0px;
-        
-    }
-    article{
-        margin-bottom: 20px;
-        width: 90%;
-        margin: 0px 0px 0px 10px;
-        padding: 0px;
-    }
-    .image{
-        margin: 0 auto  ;
-        float: none;
-        padding: 25px;
-        overflow: hidden;
-    }
-
-    
-    article{
-        margin: 0 auto;
-        width: 90%;
-        float: none;
-        padding: 0px;
-        border: 1px solid #dddddd;
-    }
-    
-    article h1{
-        border-bottom: #dddddd;
-        padding: 25px;
-        font-size: 28px;
-        
-        font-weight: bold;
-    }
-    footer{
-        position: relative;
-    }
-
-    
     
     .messageBox{
         width: 80%;
@@ -387,7 +315,7 @@ textarea{
         
     }
     .borderRight{
-        padding: 25px;
+       
         margin: 0px;
     }
     .contentContainer{
@@ -466,6 +394,76 @@ textarea{
     .portfolioLinks{
         padding: 25px;
     }
+    
+    .messageBox{
+        width: 80%;
+    }
+
+    .imgWidth{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .headerContainer{
+        width: 100%;
+    }
+    .contentContainer{
+        width: 90%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+    .borderRight{
+        border: none;
+    }
+    nav a{
+        padding: 10px 25px 25px 25px;
+        margin: 0px;
+        
+    }
+    aside{
+        float: none;
+        clear: both;
+        overflow: hidden;
+        width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+        
+    }
+    article{
+        margin-bottom: 20px;
+        width: 90%;
+        margin: 0px 0px 0px 10px;
+        padding: 0px;
+    }
+    .image{
+        margin: 0 auto  ;
+        float: none;
+        padding: 25px;
+        overflow: hidden;
+    }
+
+    
+    article{
+        margin: 0 auto;
+        width: 90%;
+        float: none;
+        padding: 0px;
+        border: 1px solid #dddddd;
+    }
+    
+    article h1{
+        border-bottom: #dddddd;
+        padding: 25px;
+        font-size: 28px;
+        
+        font-weight: bold;
+    }
+    footer{
+        position: relative;
+    }
+
+    
     
     .messageBox{
         width: 80%;
