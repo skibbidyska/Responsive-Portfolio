@@ -1,0 +1,477 @@
+/*---body styles---*/
+body{
+    background-image: url('../images/doodles.png');
+    background-color: #e2e2e5a4
+}
+
+/*---header styles---*/
+header{
+    background-color:#fff;
+    overflow: hidden;
+}
+.headerContainer{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #fff;
+    position: relative;
+    
+}
+header h1{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.namePlate{
+    float: left;
+    background-color: #4aaaa5;
+    height: 47px;
+    padding:20px 25px 0px 25px;   
+}   
+.headerNav{
+    float: right;
+    height: 47px;
+    padding:20px 0px 0px 25px;
+
+}
+
+/*---content container---*/
+.contentContainer{
+    margin: 0 auto;
+    width: 960px;
+    
+}
+/*---article styles---*/
+article{
+    margin-top: 50px;
+    margin-bottom: 126px;
+    width: 548px;
+    float: left;
+    background-color:#ffffff;
+    padding: 50px 50px 25px 50px;
+    border: 1px solid #dddddd;
+}
+
+article h1{
+    border-bottom: #dddddd;
+    padding-bottom:25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+aside{
+    margin-top: 50px;
+    width: 268px;
+    float: right;
+    background-color:#ffffff;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+aside h3{
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: thin solid #dddddd;
+
+}
+.aboutMeP2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666666;
+    line-height: 1.5;
+    
+}
+.aboutMeP{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #666666;
+    line-height: 1.5;
+    
+}
+.aboutMePhoto{
+    float: left; 
+    padding: 50px 25px 5px 0px;
+}
+
+/*---footer style---*/
+
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    clear:both;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    height: 66px;
+    color: #ffffff;
+}
+footer p{
+    padding-top: 20px;
+}
+
+
+
+/*---bottom border---*/
+.bottomBorder{
+    border-bottom: 3px solid #dddddd;
+}
+/*---text changes---*/
+a, p, form, input{
+    font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
+}
+h1, h2, h3, h4, h5, h6{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.namePlate h1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---navigation links---*/
+nav a{
+    float: left;
+    margin-top: 5px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: #666666;
+}
+.borderRight{
+    border-right: 1px solid #d3d0d0;
+    padding-right: 20px;
+}
+
+/*---contact nav links---*/
+.contactNav a{
+    padding: 20px 10px;
+    float:left;
+    margin-left: 15px;
+
+    
+}
+
+/*---form styles---*/
+
+.contentContainer form{
+    padding-top: 25px;
+}
+.formMargin{
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.messageBox{
+    width:100%;
+    height:200px;
+    
+}
+form{
+    color: #666666;
+}
+input{
+    color: #666666;
+}
+
+/*---portfolio box styles---*/
+
+.portfolioImgL{
+    float: left;
+    width: 250px;
+    margin-top:20px;
+    position: relative;
+}
+.portfolioImgR{
+    float: right;
+    width: 250px;
+    margin-top:20px;
+    position: relative;
+}
+.clearPortfolio{
+    clear: both;
+}
+.portfolioTextBox{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    bottom:10px;
+}
+.portfolioTextBox p{
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    
+}
+textarea{
+    resize: none;
+}
+@media (max-width: 980px){
+    .headerContainer{
+        width: 90%;
+    }   
+
+    
+    .contentContainer{
+        width: 90%;
+        padding: 0px;
+    }
+    .image{
+    }
+    aside{
+        width: 40%;
+        float: right;
+        
+    }
+    article{
+        width: 55%;
+        padding: 0px;
+        
+    }
+    .aboutMePhoto{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .aboutMeP{
+        clear:left;
+        padding: 10px;
+    }
+    .aboutMeP2{
+        clear: both;
+        padding: 10px;
+    }
+        
+    article h1{
+        border-bottom: #dddddd;
+        padding: 25px;
+        font-size: 28px;
+        
+        font-weight: bold;
+    }
+    footer{
+        position: relative;
+    }
+
+    .portfolioImgL{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .portfolioImgR{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .contactNav a{
+        margin: 0;
+        width: 33%;
+        padding:0px 0px 25px 0px;
+    }
+    
+    .portfolioLinks{
+        padding: 25px;
+    }
+    form{
+        padding: 0px 0px 10px 10px;
+    }
+    }
+    .messageBox{
+        width: 80%;
+    }
+
+    .imgWidth{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .headerContainer{
+        width: 100%;
+    }
+    .contentContainer{
+        width: 90%;
+        padding: 0px;
+        margin: 20px auto;
+    }
+    .borderRight{
+        border: none;
+    }
+    nav a{
+        padding: 10px 25px 25px 25px;
+        margin: 0px;
+        
+    }
+    aside{
+        float: none;
+        clear: both;
+        overflow: hidden;
+        width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+        
+    }
+    article{
+        margin-bottom: 20px;
+        width: 90%;
+        margin: 0px 0px 0px 10px;
+        padding: 0px;
+    }
+    .image{
+        margin: 0 auto  ;
+        float: none;
+        padding: 25px;
+        overflow: hidden;
+    }
+
+    
+    article{
+        margin: 0 auto;
+        width: 90%;
+        float: none;
+        padding: 0px;
+        border: 1px solid #dddddd;
+    }
+    
+    article h1{
+        border-bottom: #dddddd;
+        padding: 25px;
+        font-size: 28px;
+        
+        font-weight: bold;
+    }
+    footer{
+        position: relative;
+    }
+
+    
+    
+    .messageBox{
+        width: 80%;
+    }
+
+    .imgWidth{
+        width: 100%;
+    }
+}
+@media (max-width: 640px){
+    .headerContainer{
+        width: 100%;
+    }
+    .namePlate{
+        width:100%;
+        text-align: center;
+    }
+    
+    .headerNav{
+        float: none;
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav a{
+        box-sizing: border-box;
+        width: 33.33%;
+        text-align: center;
+        padding: 25px;
+        margin: 0px;
+        
+    }
+    .borderRight{
+        padding: 25px;
+        margin: 0px;
+    }
+    .contentContainer{
+        width: 610px;
+        padding: 0px;
+        margin: 20px auto;
+    }
+    aside{
+        float: none;
+        clear: both;
+        overflow: hidden;
+        width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+        
+    }
+    article{
+        margin-bottom: 20px;
+        width: 90%;
+        margin: 0px 0px 0px 10px;
+        padding: 0px;
+    }
+    .image{
+        margin: 0 auto  ;
+        float: none;
+        padding: 25px;
+    }
+    .aboutMePhoto{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .aboutMeP{
+        clear:both;
+        padding: 10px;
+    }
+    .aboutMeP2{
+        clear: both;
+        padding: 10px;
+    }
+    
+    article{
+        margin: 0 auto;
+        width: 90%;
+        float: none;
+        padding: 0px;
+        border: 1px solid #dddddd;
+    }
+    
+    article h1{
+        border-bottom: #dddddd;
+        padding: 25px;
+        font-size: 28px;
+        
+        font-weight: bold;
+    }
+    footer{
+        position: relative;
+    }
+
+    .portfolioImgL{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .portfolioImgR{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .contactNav a{
+        margin: 0;
+    }
+    .portfolioLinks{
+        padding: 25px;
+    }
+    
+    .messageBox{
+        width: 80%;
+    }
+
+    .imgWidth{
+        width: 100%;
+    }
+}
